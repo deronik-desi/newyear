@@ -5,10 +5,9 @@ background-size: cover;
 display: flex;
 flex-direction: column;
 min-height: 100vh;
-overflow: hidden;
+
 }
 .year{
-
     display: flex;
     justify-content: center;
 
@@ -42,9 +41,12 @@ font-family: "Oswald", sans-serif;
 
 
 footer {
+  position: relative;
+  z-index: 10;
     display: flex;
 align-items: center;
 justify-content: center;
+margin-bottom: 200px;
 }
 
 @media(max-width:1024px){
@@ -80,67 +82,8 @@ transition: all 5s linear;
  #snow {
   position: absolute;
   top: -100px;
-  right: 20%;
+  right: 45%;
   transform: translateX(-50%);
   width: 100px;
   transition: top 5s linear;
-}
-#snow2 {
-  position: absolute;
-  top: -150px;
-  left: 10%;
-  transform: translateX(-50%);
-  width: 80px;
-  transition: top 6s linear;
-}
-
-
-
-#snow3 {
-  position: absolute;
-  top: -120px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 90px;
-  transition: top 4s linear;
-}
-#snow4 {
-  position: absolute;
-  top: -130px;
-  right: 40%;
-  transform: translateX(-50%);
-  width: 70px;
-  transition: top 7s linear;
-}
-#snow5 {
-  position: absolute;
-  top: -110px;
-  left: 30%;
-  transform: translateX(-50%);
-  width: 60px;
-  transition: top 5.5s linear;
-}
-#snow6 {
-  position: absolute;
-  top: -140px;
-  right: 10%;
-  transform: translateX(-50%);
-  width: 85px;
-  transition: top 6.5s linear;
-}
-#snow7 {
-  position: absolute;
-  top: -125px;
-  left: 70%;
-  transform: translateX(-50%);
-  width: 95px;
-  transition: top 4.5s linear;
-}
-#snow8 {
-  position: absolute;
-  top: -135px;
-  right: 70%;
-  transform: translateX(-50%);
-  width: 75px;
-  transition: top 5.8s linear;
 }
