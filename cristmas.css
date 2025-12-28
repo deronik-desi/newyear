@@ -1,0 +1,146 @@
+body{
+background-image: url(./img/3373822662_w1280_h640_3373822662.webp);
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+overflow: hidden;
+}
+.year{
+
+    display: flex;
+    justify-content: center;
+
+    font-family: "Ruslan Display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.img_newyear{
+width: 100%;
+}
+.wrapper{
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+.wrapper img{
+position: relative;
+left: -1000px;
+width: 30%;
+object-fit: contain;
+transition: all 2s linear;
+}
+.poem{
+width: 30%;
+font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 20px;
+  color:white;
+}
+
+
+footer {
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+
+@media(max-width:1024px){
+.wrapper{
+flex-direction: column;
+}
+.wrapper img{
+width: 90%;
+left: -500px;
+}
+.poem{
+width: 90%;
+}
+
+}
+
+@media(max-width:768){
+.iframe{
+width: 100%;
+}
+}
+main{
+position: relative;
+}
+/* #snow {
+position: absolute;
+top: -50%;
+left: -70%;
+width: 100px;
+height: auto;
+transition: all 5s linear;
+} */
+ #snow {
+  position: absolute;
+  top: -100px;
+  right: 20%;
+  transform: translateX(-50%);
+  width: 100px;
+  transition: top 5s linear;
+}
+#snow2 {
+  position: absolute;
+  top: -150px;
+  left: 10%;
+  transform: translateX(-50%);
+  width: 80px;
+  transition: top 6s linear;
+}
+
+
+
+#snow3 {
+  position: absolute;
+  top: -120px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90px;
+  transition: top 4s linear;
+}
+#snow4 {
+  position: absolute;
+  top: -130px;
+  right: 40%;
+  transform: translateX(-50%);
+  width: 70px;
+  transition: top 7s linear;
+}
+#snow5 {
+  position: absolute;
+  top: -110px;
+  left: 30%;
+  transform: translateX(-50%);
+  width: 60px;
+  transition: top 5.5s linear;
+}
+#snow6 {
+  position: absolute;
+  top: -140px;
+  right: 10%;
+  transform: translateX(-50%);
+  width: 85px;
+  transition: top 6.5s linear;
+}
+#snow7 {
+  position: absolute;
+  top: -125px;
+  left: 70%;
+  transform: translateX(-50%);
+  width: 95px;
+  transition: top 4.5s linear;
+}
+#snow8 {
+  position: absolute;
+  top: -135px;
+  right: 70%;
+  transform: translateX(-50%);
+  width: 75px;
+  transition: top 5.8s linear;
+}
